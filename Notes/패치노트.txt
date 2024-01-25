@@ -1,0 +1,17 @@
+<<Finder_mk3.5 패치노트>>
+
+Finder_mk3.5의 목표
+: 기존의 Finder_mk3을 GUI로 변환시키기
+
+
+#finder_mk3.5.1
+	- 검색어 입력란 삭제.
+
+#finder_mk3.5.2
+	- Qt design을 통해 ui 생성.
+	- 타겟 경로 오픈, 저장할 파일 구축, 검색 결과 표시 등 기존의 Finder_mk3의 기능 모두 구현
+
+#finder_mk3.5.3
+	- 최근 저장 항목을 불러오는 콤보 박스, 팝업창을 띄워주는 ui 추가 제작
+	- 메인 파일과 Result_viewer.py 연결
+	- 저장 항목 불러오기, 팝업창 띄우기 구현

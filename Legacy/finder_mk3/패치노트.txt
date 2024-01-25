@@ -1,0 +1,36 @@
+<<Finder_mk3 패치노트>>
+
+Finder_mk3의 목표
+: 확장자 관계없이 검색어가 들어간 모든 파일의 경로, 파일명, 내용을 새로운 txt 파일에 저장한다.
+
+
+#finder_mk3.0
+	- 파일명 검색 코드 작성
+
+#finder_mk3.1
+	- 검색한 파일의 파일명을 새 txt파일로 저장하는 기능 추가
+
+#finder_mk3.2.5
+	- 검색한 파일의 내용을 읽지 못하는 디버그 발생
+	- choose_file 메서드 제거
+	- open_file, make_fianl 메서드 추가
+	- 검색한 파일의 경로, 내용을 추가 저장하는 기능 추가
+
+#finder_mk3.3
+	- 고정 검색어 제거
+	- 검색기능 활성화
+
+#finder_mk3.4
+	- 고정 파일 이름 제거
+	- 저장할 txt 파일명 수정 기능 활성화
+	- getter, setter를 각각 @property, @n_path.setter로 캡슐화 완료
+
+#finder_mk3.5
+	- txt파일에 출력되는 '\n', [ ] 등 불필요한 문자 제거
+	- txt파일의 문단 구분선 추가
+
+#finder_mk3.6
+    - 각종 input 기능을 argparse 모듈로 대체
+
+#finder_mk3.7
+    - argparse 기능을 생성자 매서드에 병합
